@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A82300A61AE0892C00459317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82300A51AE0892C00459317 /* AppDelegate.swift */; };
-		A82300A81AE0892C00459317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82300A71AE0892C00459317 /* ViewController.swift */; };
 		A82300AB1AE0892C00459317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82300A91AE0892C00459317 /* Main.storyboard */; };
 		A82300AD1AE0892C00459317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82300AC1AE0892C00459317 /* Images.xcassets */; };
 		A82300B01AE0892C00459317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82300AE1AE0892C00459317 /* LaunchScreen.xib */; };
 		A82300BC1AE0892C00459317 /* instaSLAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82300BB1AE0892C00459317 /* instaSLAMTests.swift */; };
+		A89A52BC1AE08B3700115717 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A52BB1AE08B3700115717 /* PhotosViewController.swift */; };
+		A89A52BE1AE08C6A00115717 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A52BD1AE08C6A00115717 /* PhotoCell.swift */; };
+		A89A52C51AE0926000115717 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A52C41AE0926000115717 /* PhotosDetailViewController.swift */; };
+		AA538DE703D829B28B148738 /* libPods-instaSLAM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA2A5389502E03525FF34ED /* libPods-instaSLAM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EF45CAEEBA011C1728E647 /* Pods-instaSLAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaSLAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaSLAM/Pods-instaSLAM.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA2A5389502E03525FF34ED /* libPods-instaSLAM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instaSLAM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC7AA8C87ECAFDD0BA00468 /* Pods-instaSLAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaSLAM.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaSLAM/Pods-instaSLAM.release.xcconfig"; sourceTree = "<group>"; };
 		A82300A01AE0892C00459317 /* instaSLAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaSLAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82300A41AE0892C00459317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82300A51AE0892C00459317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A82300A71AE0892C00459317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A82300AA1AE0892C00459317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82300AC1AE0892C00459317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A82300AF1AE0892C00459317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A82300B51AE0892C00459317 /* instaSLAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instaSLAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82300BA1AE0892C00459317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82300BB1AE0892C00459317 /* instaSLAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaSLAMTests.swift; sourceTree = "<group>"; };
+		A89A52BB1AE08B3700115717 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A89A52BD1AE08C6A00115717 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A89A52BF1AE08CFA00115717 /* instaSLAM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instaSLAM-Bridging-Header.h"; sourceTree = "<group>"; };
+		A89A52C41AE0926000115717 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA538DE703D829B28B148738 /* libPods-instaSLAM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2FB9105FD88FEFEC631457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2A5389502E03525FF34ED /* libPods-instaSLAM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ED298C0C83CF0160DE6A1E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EF45CAEEBA011C1728E647 /* Pods-instaSLAM.debug.xcconfig */,
+				9DC7AA8C87ECAFDD0BA00468 /* Pods-instaSLAM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A82300971AE0892C00459317 = {
 			isa = PBXGroup;
 			children = (
 				A82300A21AE0892C00459317 /* instaSLAM */,
 				A82300B81AE0892C00459317 /* instaSLAMTests */,
 				A82300A11AE0892C00459317 /* Products */,
+				9ED298C0C83CF0160DE6A1E8 /* Pods */,
+				5D2FB9105FD88FEFEC631457 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				A82300A51AE0892C00459317 /* AppDelegate.swift */,
-				A82300A71AE0892C00459317 /* ViewController.swift */,
+				A89A52BB1AE08B3700115717 /* PhotosViewController.swift */,
 				A82300A91AE0892C00459317 /* Main.storyboard */,
 				A82300AC1AE0892C00459317 /* Images.xcassets */,
 				A82300AE1AE0892C00459317 /* LaunchScreen.xib */,
 				A82300A31AE0892C00459317 /* Supporting Files */,
+				A89A52BD1AE08C6A00115717 /* PhotoCell.swift */,
+				A89A52BF1AE08CFA00115717 /* instaSLAM-Bridging-Header.h */,
+				A89A52C41AE0926000115717 /* PhotosDetailViewController.swift */,
 			);
 			path = instaSLAM;
 			sourceTree = "<group>";
@@ -119,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A82300BF1AE0892C00459317 /* Build configuration list for PBXNativeTarget "instaSLAM" */;
 			buildPhases = (
+				F4F103CF8B688601281F5E9F /* Check Pods Manifest.lock */,
 				A823009C1AE0892C00459317 /* Sources */,
 				A823009D1AE0892C00459317 /* Frameworks */,
 				A823009E1AE0892C00459317 /* Resources */,
+				EAFEEA3D7DBF9302B1A9ECE2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +241,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EAFEEA3D7DBF9302B1A9ECE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaSLAM/Pods-instaSLAM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F103CF8B688601281F5E9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A823009C1AE0892C00459317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82300A81AE0892C00459317 /* ViewController.swift in Sources */,
+				A89A52C51AE0926000115717 /* PhotosDetailViewController.swift in Sources */,
 				A82300A61AE0892C00459317 /* AppDelegate.swift in Sources */,
+				A89A52BE1AE08C6A00115717 /* PhotoCell.swift in Sources */,
+				A89A52BC1AE08B3700115717 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,21 +407,28 @@
 		};
 		A82300C01AE0892C00459317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EF45CAEEBA011C1728E647 /* Pods-instaSLAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = instaSLAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "instaSLAM/instaSLAM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A82300C11AE0892C00459317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC7AA8C87ECAFDD0BA00468 /* Pods-instaSLAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = instaSLAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "instaSLAM/instaSLAM-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +485,7 @@
 				A82300C11AE0892C00459317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82300C21AE0892C00459317 /* Build configuration list for PBXNativeTarget "instaSLAMTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +494,7 @@
 				A82300C41AE0892C00459317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
